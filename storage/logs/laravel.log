@@ -1,0 +1,54 @@
+[2024-11-15 14:51:59] development.INFO: Menghitung Jumlah Data Di Feeder...  
+[2024-11-15 14:51:59] development.ERROR: Too few arguments to function App\Commands\FeederMenuCommand::NunoMaduro\LaravelDesktopNotifier\{closure}(), 1 passed in /Users/bendo01/Sites/feeder-cli/vendor/illuminate/macroable/Traits/Macroable.php on line 126 and at least 2 expected {"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function App\\Commands\\FeederMenuCommand::NunoMaduro\\LaravelDesktopNotifier\\{closure}(), 1 passed in /Users/bendo01/Sites/feeder-cli/vendor/illuminate/macroable/Traits/Macroable.php on line 126 and at least 2 expected at /Users/bendo01/Sites/feeder-cli/vendor/nunomaduro/laravel-desktop-notifier/src/LaravelDesktopNotifierServiceProvider.php:39)
+[stacktrace]
+#0 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/macroable/Traits/Macroable.php(126): App\\Commands\\FeederMenuCommand->NunoMaduro\\LaravelDesktopNotifier\\{closure}('Menghubungi Fee...')
+#1 /Users/bendo01/Sites/feeder-cli/app/Commands/FeederMenuCommand.php(40): Illuminate\\Console\\Command->__call('notify', Array)
+#2 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/container/BoundMethod.php(36): App\\Commands\\FeederMenuCommand->handle()
+#3 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(LaravelZero\\Framework\\Application), Array, Object(Closure))
+#6 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/container/Container.php(690): Illuminate\\Container\\BoundMethod::call(Object(LaravelZero\\Framework\\Application), Array, Array, NULL)
+#7 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/console/Command.php(213): Illuminate\\Container\\Container->call(Array)
+#8 /Users/bendo01/Sites/feeder-cli/vendor/symfony/console/Command/Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#10 /Users/bendo01/Sites/feeder-cli/vendor/symfony/console/Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /Users/bendo01/Sites/feeder-cli/vendor/symfony/console/Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Commands\\FeederMenuCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /Users/bendo01/Sites/feeder-cli/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /Users/bendo01/Sites/feeder-cli/vendor/laravel-zero/foundation/src/Illuminate/Foundation/Console/Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 /Users/bendo01/Sites/feeder-cli/vendor/laravel-zero/framework/src/Kernel.php(111): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /Users/bendo01/Sites/feeder-cli/feeder-cli(35): LaravelZero\\Framework\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 {main}
+"} 
+[2024-11-15 14:52:13] development.INFO: Menghitung Jumlah Data Di Feeder...  
+[2024-11-15 14:52:14] development.INFO: Menghitung Jumlah Data Di Feeder...  
+[2024-11-15 14:52:15] development.INFO: Menghitung Jumlah Data Di Feeder...  
+[2024-11-15 14:52:16] development.INFO: Menghitung Jumlah Data Di Feeder...  
+[2024-11-15 14:52:17] development.INFO: Menghitung Jumlah Data Di Feeder...  
+[2024-11-15 14:52:18] development.INFO: Menghitung Jumlah Data Di Feeder...  
+[2024-11-15 14:52:19] development.INFO: Menghitung Jumlah Data Di Feeder...  
+[2024-11-15 14:52:20] development.INFO: Menghitung Jumlah Data Di Feeder...  
+[2024-11-15 14:52:21] development.INFO: Menghitung Jumlah Data Di Feeder...  
+[2024-11-15 14:54:13] development.ERROR: Too few arguments to function App\Commands\FeederMenuCommand::NunoMaduro\LaravelDesktopNotifier\{closure}(), 1 passed in /Users/bendo01/Sites/feeder-cli/vendor/illuminate/macroable/Traits/Macroable.php on line 126 and at least 2 expected {"exception":"[object] (ArgumentCountError(code: 0): Too few arguments to function App\\Commands\\FeederMenuCommand::NunoMaduro\\LaravelDesktopNotifier\\{closure}(), 1 passed in /Users/bendo01/Sites/feeder-cli/vendor/illuminate/macroable/Traits/Macroable.php on line 126 and at least 2 expected at /Users/bendo01/Sites/feeder-cli/vendor/nunomaduro/laravel-desktop-notifier/src/LaravelDesktopNotifierServiceProvider.php:39)
+[stacktrace]
+#0 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/macroable/Traits/Macroable.php(126): App\\Commands\\FeederMenuCommand->NunoMaduro\\LaravelDesktopNotifier\\{closure}('Menghubungi Fee...')
+#1 /Users/bendo01/Sites/feeder-cli/app/Commands/FeederMenuCommand.php(42): Illuminate\\Console\\Command->__call('notify', Array)
+#2 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/container/BoundMethod.php(36): App\\Commands\\FeederMenuCommand->handle()
+#3 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(LaravelZero\\Framework\\Application), Array, Object(Closure))
+#6 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/container/Container.php(690): Illuminate\\Container\\BoundMethod::call(Object(LaravelZero\\Framework\\Application), Array, Array, NULL)
+#7 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/console/Command.php(213): Illuminate\\Container\\Container->call(Array)
+#8 /Users/bendo01/Sites/feeder-cli/vendor/symfony/console/Command/Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 /Users/bendo01/Sites/feeder-cli/vendor/illuminate/console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#10 /Users/bendo01/Sites/feeder-cli/vendor/symfony/console/Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /Users/bendo01/Sites/feeder-cli/vendor/symfony/console/Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Commands\\FeederMenuCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /Users/bendo01/Sites/feeder-cli/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /Users/bendo01/Sites/feeder-cli/vendor/laravel-zero/foundation/src/Illuminate/Foundation/Console/Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 /Users/bendo01/Sites/feeder-cli/vendor/laravel-zero/framework/src/Kernel.php(111): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /Users/bendo01/Sites/feeder-cli/feeder-cli(35): LaravelZero\\Framework\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 {main}
+"} 
+[2024-11-15 15:08:54] development.ERROR: Illegal offset type {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Illegal offset type at /Users/bendo01/Sites/feeder-cli/app/Commands/FeederMenuCommand.php:32)
+[stacktrace]
+#0 {main}
+"} 
