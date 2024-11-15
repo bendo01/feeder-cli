@@ -34,4 +34,4 @@ Laravel Zero is an open-source software licensed under the MIT license.
 
 1. buka terminal
 2. ketik `cd /Users/bendo01/Sites/feeder-cli`
-3. ketik `./feeder-cli`
+3. ketik `./feeder-cli app:feeder-menu-command`
